@@ -1,0 +1,89 @@
+/*
+
+* {
+    border: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+body,html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Patrick Hand', cursive;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+
+.logo {
+	height: 20%;
+	width: 20%;
+	padding: 5px;
+}
+
+.horizontal_line {
+	border: 0 none;
+	color: #eee;
+	height: 5px;
+	background-color: #333;
+}
+
+.description {
+	padding-top: 10px;
+}
+
+.about_me {
+	font-size: 16px;
+}
+
+.frontend_img {
+	padding-bottom: 15px;
+}
+
+.portfolio_img {
+	width: 60%;
+	height: 60%;
+	padding:1px;
+    border:1px solid #021a40;
+}
+
+/* Media Queries */
+@media screen and (max-width: 450px){
+
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 15px;
+	}
+
+}	
+
+
+
+@media screen and (min-width: 1000px) {
+	main, header {
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
