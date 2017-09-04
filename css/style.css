@@ -83,6 +83,11 @@ h1 {
 		font-size: 18px;
 	}
 
+	.portfolio_img {
+	width: 45%;
+	height: 45%;
+	}
+
 }	
 
 @media screen and (min-width: 601px) and (max-width: 999px){
@@ -93,7 +98,12 @@ h1 {
 	h4 {
 		font-size: 25px;
 	}
-
+	
+	.portfolio_img {
+	width: 45%;
+	height: 45%;
+	}
+	
 }	
 
 
